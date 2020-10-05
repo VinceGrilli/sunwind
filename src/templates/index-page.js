@@ -7,6 +7,10 @@ import Features from '../components/Features';
 import BlogRoll from '../components/BlogRoll';
 
 import logo from '../img/sunwind-logo.png';
+import icon1 from '../img/icon-1.png';
+import icon2 from '../img/icon-2.png';
+import icon3 from '../img/icon-3.png';
+import wave from '../img/wave.png';
 
 export const IndexPageTemplate = ({
   image,
@@ -168,6 +172,35 @@ export const IndexPageTemplate = ({
           Read more
         </Link>
       </div>
+    </div>
+    <div className='columns'>
+      <div
+        className='column is-12 has-text-centered'
+        style={{ padding: '4rem ', backgroundColor: 'white' }}
+      >
+        <img src={wave} alt='wave' />
+      </div>
+    </div>
+    <div className='columns' style={{ backgroundColor: 'white' }}>
+      <Link className='column content has-text-centered' to='/about'>
+        <img src={icon1} alt='Installation Options' />
+        <h1 style={{ color: '#d5ad26', fontWeight: '300' }}>
+          Installation Options
+        </h1>
+        <h4 style={{ color: '#d5ad26' }}>Roof mounted or ground array...</h4>
+      </Link>
+      <Link className='column content has-text-centered' to='/payment-options'>
+        <img src={icon2} alt='Installation Options' />
+        <h1 style={{ color: '#d5ad26', fontWeight: '300' }}>Payment Options</h1>
+        <h4 style={{ color: '#d5ad26' }}>Pay in full verses financing...</h4>
+      </Link>
+      <Link className='column content has-text-centered' to='/wind'>
+        <img src={icon3} alt='Installation Options' />
+        <h1 style={{ color: '#d5ad26', fontWeight: '300' }}>Wind Power</h1>
+        <h4 style={{ color: '#d5ad26' }}>
+          Learn about wind turbine options...
+        </h4>
+      </Link>
     </div>
   </div>
 );
