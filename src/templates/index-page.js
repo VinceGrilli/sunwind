@@ -23,7 +23,6 @@ export const IndexPageTemplate = ({
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
         backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`,
       }}
     >
       <div
@@ -73,28 +72,34 @@ export const IndexPageTemplate = ({
         </div>
       </div>
     </div>
+
+    <div
+      className='content columns'
+      style={{
+        backgroundColor: '#2073af',
+        boxShadow: '#2073af 0.5rem 0px 0px, #2073af -0.5rem 0px 0px',
+        color: 'white',
+        fontSize: '1em',
+      }}
+    >
+      <div className='tile column is-two-fifths '>
+        <h2 className='' style={{ textAlign: 'left', marginLeft: '1em' }}>
+          {mainpitch.title}
+        </h2>
+      </div>
+      <div className='column is-one-fifth is-narrow'></div>
+      <div className='tile column is-two-fifths '>
+        <h2 className='' style={{ textAlign: 'right', marginRight: '1em' }}>
+          {mainpitch.description}
+        </h2>
+      </div>
+    </div>
     <section className='section section--gradient'>
       <div className='container'>
         <div className='section'>
           <div className='columns'>
             <div className='column is-10 is-offset-1'>
               <div className='content'>
-                <div className='content'>
-                  <div className='tile'>
-                    <h1 className='title'>{mainpitch.title}</h1>
-                  </div>
-                  <div className='tile'>
-                    <h3 className='subtitle'>{mainpitch.description}</h3>
-                  </div>
-                </div>
-                <div className='columns'>
-                  <div className='column is-12'>
-                    <h3 className='has-text-weight-semibold is-size-2'>
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
-                </div>
                 <Features gridItems={intro.blurbs} />
                 <div className='columns'>
                   <div className='column is-12 has-text-centered'>
