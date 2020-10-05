@@ -12,7 +12,11 @@ const Footer = class extends React.Component {
     return (
       <footer className='footer has-background-white has-text-white-ter'>
         <div className='content has-text-centered'>
-          <img src={logo} alt='Sunwind LLC' style={{ height: '10em' }} />
+          <img
+            src={logo}
+            alt='Sunwind LLC'
+            style={{ height: '10em', margin: '1rem .2rem' }}
+          />
         </div>
         <div
           className='content has-text-centered has-text-white-ter'

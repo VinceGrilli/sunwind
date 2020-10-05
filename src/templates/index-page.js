@@ -38,7 +38,11 @@ export const IndexPageTemplate = ({
         }}
       >
         <div className='content has-text-centered'>
-          <img src={logo} alt='Sunwind LLC' style={{ height: '10em' }} />
+          <img
+            src={logo}
+            alt='Sunwind LLC'
+            style={{ height: '10em', margin: '1rem .1rem' }}
+          />
         </div>
         <h1
           className='has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen has-text-centered'
@@ -55,21 +59,25 @@ export const IndexPageTemplate = ({
         </h1>
         <hr />
         <div className='columns is-centered'>
-          <Link
-            className='has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen has-text-centered'
-            to='/contact'
-            style={{
-              backgroundColor: '#185581',
-              color: 'white',
-              lineHeight: '1',
-              padding: '0.25em',
-              width: '300px',
-              borderStyle: 'solid round',
-              borderRadius: '6px',
-            }}
-          >
-            {subheading}
-          </Link>
+          <div className='column is-12 has-text-centered'>
+            <Link
+              className='has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen has-text-centered'
+              to='/contact'
+              style={{
+                display: 'inline-block',
+                backgroundColor: '#185581',
+                color: '#f4d675',
+                lineHeight: '1',
+                padding: '0.25em',
+                width: '300px',
+                borderStyle: 'solid round',
+                borderColor: 'white',
+                borderRadius: '6px',
+              }}
+            >
+              {subheading}
+            </Link>
+          </div>
         </div>
       </div>
     </div>
