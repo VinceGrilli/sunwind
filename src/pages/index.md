@@ -3,7 +3,7 @@ templateKey: index-page
 title: Great coffee with a conscience
 image: /img/banner.png
 heading: Federal Incentive Decreasing from 26% to 22% Starting January 2021
-subheading: Contact us today!
+subheading: Contact us today to lock in your rebate!
 mainpitch:
   title: " Custom Solar Solutions Installed by trusted professionals"
   description: |+
