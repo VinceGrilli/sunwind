@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
-import Features from '../components/Features';
-import BlogRoll from '../components/BlogRoll';
 
 import logo from '../img/sunwind-logo.png';
 import icon1 from '../img/icon-1.png';
@@ -14,12 +12,9 @@ import wave from '../img/wave.png';
 
 export const IndexPageTemplate = ({
   image,
-  title,
   heading,
   subheading,
   mainpitch,
-  description,
-  intro,
 }) => (
   <div style={{ backgroundColor: '#3480b6' }}>
     <div
@@ -60,25 +55,20 @@ export const IndexPageTemplate = ({
         </h1>
         <hr />
         <div className='columns is-centered'>
-          <div className='column is-half'>
-            <h3
-              className='has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen has-text-centered'
-              style={{
-                backgroundColor: '#2073af',
-                color: 'white',
-                lineHeight: '1',
-                padding: '0.25em',
-                width: '200px',
-                opacity: '.8',
-              }}
-            >
-              {subheading}
-            </h3>
-          </div>
-        </div>
-        <div className='column is-12 has-text-centered'>
-          <Link className='btn is-rounded' to='/contact'>
-            Contact
+          <Link
+            className='has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen has-text-centered'
+            to='/contact'
+            style={{
+              backgroundColor: '#185581',
+              color: 'white',
+              lineHeight: '1',
+              padding: '0.25em',
+              width: '300px',
+              borderStyle: 'solid round',
+              borderRadius: '6px',
+            }}
+          >
+            {subheading}
           </Link>
         </div>
       </div>
@@ -249,7 +239,6 @@ export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
-        title
         image {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {
@@ -261,21 +250,6 @@ export const pageQuery = graphql`
         subheading
         mainpitch {
           title
-          description
-        }
-        description
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            text
-          }
-          heading
           description
         }
       }
