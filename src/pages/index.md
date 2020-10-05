@@ -1,11 +1,7 @@
 ---
 templateKey: index-page
 title: Great coffee with a conscience
-<<<<<<< HEAD
-image: /img/home-jumbotron.jpg
-=======
 image: /img/banner.png
->>>>>>> d2f041e47ac46b6f1ff00322973fc16f4a57362a
 heading: Federal Incentive Decreasing from 26% to 22% Starting January 2021
 subheading: Contact us today!
 mainpitch:
