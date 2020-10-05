@@ -1,16 +1,16 @@
 ---
 templateKey: index-page
 title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
+image: /img/banner.png
 heading: Federal Incentive Decreasing from 26% to 22% Starting January 2021
 subheading: Contact us today!
 mainpitch:
-  title: Why Kaldi
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+  title: " Custom Solar Solutions Installed by trusted professionals"
+  description: |+
+    
+    Serving Cape Cod
+    and Eastern Massachusetts
+
 description: Kaldi is the ultimate spot for coffee lovers who want to learn
   about their java’s origin and support the farmers that grew it. We take coffee
   production, roasting and brewing seriously and we’re glad to pass that
