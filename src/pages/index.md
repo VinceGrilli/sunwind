@@ -2,8 +2,8 @@
 templateKey: index-page
 title: Great coffee with a conscience
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: Federal Incentive Decreasing from 26% to 22% Starting January 2021
+subheading: Contact us today!
 mainpitch:
   title: Why Kaldi
   description: >
