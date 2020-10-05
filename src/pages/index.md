@@ -1,7 +1,11 @@
 ---
 templateKey: index-page
 title: Great coffee with a conscience
+<<<<<<< HEAD
 image: /img/home-jumbotron.jpg
+=======
+image: /img/banner.png
+>>>>>>> d2f041e47ac46b6f1ff00322973fc16f4a57362a
 heading: Federal Incentive Decreasing from 26% to 22% Starting January 2021
 subheading: Contact us today!
 mainpitch:
@@ -11,11 +15,10 @@ mainpitch:
     shouldn't just taste good, it should do good too. We source all of our beans
     directly from small scale sustainable farmers and make sure part of the
     profits are reinvested in their communities.
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+description: Kaldi is the ultimate spot for coffee lovers who want to learn
+  about their java’s origin and support the farmers that grew it. We take coffee
+  production, roasting and brewing seriously and we’re glad to pass that
+  knowledge to anyone.
 intro:
   blurbs:
     - image: /img/coffee.png
