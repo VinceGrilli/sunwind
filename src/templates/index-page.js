@@ -6,6 +6,8 @@ import Layout from '../components/Layout';
 import Features from '../components/Features';
 import BlogRoll from '../components/BlogRoll';
 
+import logo from '../img/sunwind-logo.png';
+
 export const IndexPageTemplate = ({
   image,
   title,
@@ -15,14 +17,14 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => (
-  <div>
+  <div style={{ backgroundColor: '#3480b6' }}>
     <div
       className='full-width-image margin-top-0'
       style={{
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
-        backgroundPosition: `top left`,
+        backgroundPosition: `center`,
       }}
     >
       <div
@@ -36,6 +38,9 @@ export const IndexPageTemplate = ({
           flexDirection: 'column',
         }}
       >
+        <div className='content has-text-centered'>
+          <img src={logo} alt='Sunwind LLC' style={{ height: '10em' }} />
+        </div>
         <h1
           className='has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen has-text-centered'
           style={{
@@ -44,13 +49,14 @@ export const IndexPageTemplate = ({
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
+            opacity: '.8',
           }}
         >
           {heading}
         </h1>
         <hr />
         <div className='columns is-centered'>
-          <div className='column is-narrow is-half'>
+          <div className='column is-half'>
             <h3
               className='has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen has-text-centered'
               style={{
@@ -59,6 +65,7 @@ export const IndexPageTemplate = ({
                 lineHeight: '1',
                 padding: '0.25em',
                 width: '200px',
+                opacity: '.8',
               }}
             >
               {subheading}
@@ -66,7 +73,7 @@ export const IndexPageTemplate = ({
           </div>
         </div>
         <div className='column is-12 has-text-centered'>
-          <Link className='btn' to='/contact'>
+          <Link className='btn is-rounded' to='/contact'>
             Contact
           </Link>
         </div>
@@ -78,53 +85,90 @@ export const IndexPageTemplate = ({
       style={{
         backgroundColor: '#2073af',
         boxShadow: '#2073af 0.5rem 0px 0px, #2073af -0.5rem 0px 0px',
-        color: 'white',
-        fontSize: '1em',
       }}
     >
       <div className='tile column is-two-fifths '>
-        <h2 className='' style={{ textAlign: 'left', marginLeft: '1em' }}>
+        <h2
+          className=''
+          style={{ textAlign: 'left', marginLeft: '1em', color: 'white' }}
+        >
           {mainpitch.title}
         </h2>
       </div>
       <div className='column is-one-fifth is-narrow'></div>
       <div className='tile column is-two-fifths '>
-        <h2 className='' style={{ textAlign: 'right', marginRight: '1em' }}>
+        <h2
+          className=''
+          style={{
+            textAlign: 'right',
+            marginRight: '1em',
+            color: 'white',
+            display: 'flow-root',
+          }}
+        >
           {mainpitch.description}
         </h2>
       </div>
     </div>
-    <section className='section section--gradient'>
-      <div className='container'>
-        <div className='section'>
-          <div className='columns'>
-            <div className='column is-10 is-offset-1'>
-              <div className='content'>
-                <Features gridItems={intro.blurbs} />
-                <div className='columns'>
-                  <div className='column is-12 has-text-centered'>
-                    <Link className='btn' to='/products'>
-                      See all products
-                    </Link>
-                  </div>
-                </div>
-                <div className='column is-12'>
-                  <h3 className='has-text-weight-semibold is-size-2'>
-                    Latest stories
-                  </h3>
-                  <BlogRoll />
-                  <div className='column is-12 has-text-centered'>
-                    <Link className='btn' to='/blog'>
-                      Read more
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+
+    <div className='container' style={{ backgroundColor: '#3480b6' }}>
+      <div className='content columns '>
+        <div
+          className='column is-two-fifths'
+          style={{
+            marginLeft: '1rem',
+            fontSize: '1.2rem',
+            color: 'white',
+            textAlign: 'left',
+          }}
+        >
+          <p>
+            SunWind, LLC. is dedicated to providing professional design and
+            installation of alternative energy systems. Our purpose is to
+            provide our clients with innovative solutions to their alternative
+            energy needs while promoting the economical and environmental
+            benefits.
+          </p>
+          <p>
+            SunWind, LLC. will provide turnkey installations of solar power,
+            Wind power, and Solar Thermal systems. We will conduct an extensive
+            site assessment of each project and provide a written report to the
+            client with our proposal.
+          </p>
+        </div>
+        <div className='column is-one-fifth'></div>
+        <div
+          className='column is-two-fifths'
+          style={{
+            marginRight: '3rem',
+            fontSize: '1.5rem',
+            color: '#d5ad26',
+            textAlign: 'right',
+          }}
+        >
+          <p>
+            “My wife and I are writing to express our satisfaction with a 22
+            panel solar (electricity) installation by SunWind LLC. We researched
+            locally for Cape-based solar companies to do the work and
+            installation. The 3 bids were competitive, but we chose Tim Holmes’s
+            SunWind based on his knowledge ...”
+          </p>
+          <p style={{ color: '#f4d675' }}>
+            - Sandwich, MA (Todd and Robin L. )
+          </p>
         </div>
       </div>
-    </section>
+    </div>
+    <div className='columns'>
+      <div
+        className='column is-12 has-text-centered'
+        style={{ padding: '2rem ' }}
+      >
+        <Link className='btn' to='/blog'>
+          Read more
+        </Link>
+      </div>
+    </div>
   </div>
 );
 
