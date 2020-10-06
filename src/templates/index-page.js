@@ -47,12 +47,12 @@ export const IndexPageTemplate = ({
         <h1
           className='has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen has-text-centered'
           style={{
-            boxShadow: '#2073af 0.5rem 0px 0px, #2073af -0.5rem 0px 0px',
-            backgroundColor: '#2073af',
+            backgroundImage: 'linear-gradient(to right, #2073af , #3480b6)',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
-            opacity: '.8',
+            opacity: '.85',
+            borderRadius: '6px',
           }}
         >
           {heading}
@@ -81,38 +81,39 @@ export const IndexPageTemplate = ({
         </div>
       </div>
     </div>
-
-    <div
-      className='content columns'
-      style={{
-        backgroundColor: '#2073af',
-        boxShadow: '#2073af 0.5rem 0px 0px, #2073af -0.5rem 0px 0px',
-      }}
-    >
-      <div className='tile column is-two-fifths '>
-        <h2
-          className=''
-          style={{ textAlign: 'left', marginLeft: '1em', color: 'white' }}
-        >
-          {mainpitch.title}
-        </h2>
-      </div>
-      <div className='column is-one-fifth is-narrow'></div>
-      <div className='tile column is-two-fifths '>
-        <h2
-          className=''
-          style={{
-            textAlign: 'right',
-            marginRight: '1em',
-            color: 'white',
-            display: 'flow-root',
-          }}
-        >
-          {mainpitch.description}
-        </h2>
+    <div className='container'>
+      <div
+        className='content columns'
+        style={{
+          backgroundImage: 'linear-gradient(to right, #2073af , #3480b6)',
+          borderRadius: '6px',
+          marginBottom: '1rem',
+        }}
+      >
+        <div className='tile column is-two-fifths '>
+          <h2
+            className=''
+            style={{ textAlign: 'left', marginLeft: '1em', color: 'white' }}
+          >
+            {mainpitch.title}
+          </h2>
+        </div>
+        <div className='column is-one-fifth is-narrow'></div>
+        <div className='tile column is-two-fifths '>
+          <h2
+            className=''
+            style={{
+              textAlign: 'right',
+              marginRight: '1em',
+              color: 'white',
+              display: 'flow-root',
+            }}
+          >
+            {mainpitch.description}
+          </h2>
+        </div>
       </div>
     </div>
-
     <div className='container' style={{ backgroundColor: '#3480b6' }}>
       <div className='content columns '>
         <div
@@ -155,9 +156,7 @@ export const IndexPageTemplate = ({
             installation. The 3 bids were competitive, but we chose Tim Holmes’s
             SunWind based on his knowledge ...”
           </p>
-          <p style={{ color: '#f4d675' }}>
-            - Sandwich, MA (Todd and Robin L. )
-          </p>
+          <p style={{ color: '#f4d675' }}>- Todd and Robin L. (Sandwich, MA)</p>
         </div>
       </div>
     </div>
