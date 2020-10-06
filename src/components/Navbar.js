@@ -1,22 +1,26 @@
 import React, { useState } from 'react';
 import { Link } from 'gatsby';
-import github from '../img/github-icon.svg';
 import logo from '../img/sunwind-logo.png';
+import facebook from '../img/social/facebook.svg';
+import instagram from '../img/social/instagram.svg';
 
 const Navbar = () => {
   let [active, setActive] = useState(false);
   let [navBarActiveClass, SetNavBarActiveClass] = useState('');
 
-  const toggleHamburger = () => {
-    // toggle the active boolean in the state
+  const toggleActive = () => {
     setActive(!active);
     active ? SetNavBarActiveClass('is-active') : SetNavBarActiveClass('');
   };
+
   return (
     <nav
-      className='navbar is-transparent'
+      className='navbar '
       role='navigation'
-      aria-label='main-navigation'
+      aria-label='main-navigation '
+      style={{
+        backgroundImage: 'linear-gradient(to right, #2073af , #3480b6)',
+      }}
     >
       <div className='container'>
         <div className='navbar-brand'>
@@ -27,41 +31,85 @@ const Navbar = () => {
           <div
             className={`navbar-burger burger ${navBarActiveClass}`}
             data-target='navMenu'
-            onClick={(e) => toggleHamburger(e.target.value)}
+            onClick={(e) => toggleActive(e.target.value)}
           >
             <span />
             <span />
             <span />
           </div>
         </div>
-        <div id='navMenu' className={`navbar-menu ${navBarActiveClass}`}>
+        <div
+          id='navMenu'
+          className={`navbar-menu ${navBarActiveClass}`}
+          style={{
+            backgroundImage: 'linear-gradient(to right, #2073af , #3480b6)',
+          }}
+        >
           <div className='navbar-start has-text-centered'>
-            <Link className='navbar-item' to='/about'>
+            <div className={`navbar-item has-dropdown is-hoverable `}>
+              <Link className='navbar-link wt' to='/solar'>
+                Solar
+              </Link>
+
+              <div className={`navbar-dropdown`}>
+                <Link className='navbar-item wt' to='/residential-commercial'>
+                  Residential & Commercial
+                </Link>
+                <Link className='navbar-item wt' to='/incentives'>
+                  Incentive Programs
+                </Link>
+                <Link className='navbar-item wt' to='/payment-options'>
+                  Payment Options
+                </Link>
+                <Link className='navbar-item wt' to='/ground'>
+                  Ground-mount Systems
+                </Link>
+              </div>
+            </div>
+            <Link className='navbar-item wt' to='/wind'>
+              Wind
+            </Link>
+            <Link className='navbar-item wt' to='/gallery'>
+              Gallery
+            </Link>
+            <Link className='navbar-item wt' to='/about'>
               About
             </Link>
-            <Link className='navbar-item' to='/products'>
-              Products
-            </Link>
-            <Link className='navbar-item' to='/blog'>
+            <Link className='navbar-item wt' to='/blog'>
               Blog
             </Link>
-            <Link className='navbar-item' to='/contact'>
+            <Link className='navbar-item wt' to='/contact'>
               Contact
-            </Link>
-            <Link className='navbar-item' to='/contact/examples'>
-              Form Examples
             </Link>
           </div>
           <div className='navbar-end has-text-centered'>
-            <a
-              className='navbar-item'
-              href='https://github.com/netlify-templates/gatsby-starter-netlify-cms'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <span className='icon'>
-                <img src={github} alt='Github' />
-              </span>
+            <div className='social'>
+              <a
+                title='facebook'
+                target='_blank'
+                href='https://www.facebook.com/sunwindllc/'
+              >
+                <img
+                  src={facebook}
+                  alt='Facebook'
+                  style={{ width: '1.25rem' }}
+                />
+              </a>
+              <a
+                title='instagram'
+                target='_blank'
+                href='https://www.instagram.com/sunwindllc/'
+              >
+                <img
+                  src={instagram}
+                  alt='Instagram'
+                  style={{ width: '1.25rem' }}
+                />
+              </a>
+            </div>
+
+            <a className='navbar-item wt' href='tel:508-258-7277"'>
+              508-258-7277
             </a>
           </div>
         </div>
