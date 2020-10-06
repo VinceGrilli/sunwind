@@ -1,25 +1,42 @@
 ---
-templateKey: 'about-page'
+templateKey: about-page
 path: /about
 title: About Sunwind LLC
 ---
+<!--StartFragment-->
 
-### Shade-grown coffee
+SunWind, LLC, has been installing renewable energy since 2009, and we have worked with hundreds of Cape home- and business-owners to improve their energy efficiency by using renewable energy sources such as solar PV, solar thermal and wind turbines, and in turn, saving them a lot of money on utility bills.
 
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+We stand by our commitment to quality workmanship and customer satisfaction, and our belief in a future powered sustainably by renewable energy.
 
-### Single origin
+## From Start to Finish
 
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+We are with you from start to finish of the project; from initial consultation to the actual install, everything is done in-house by our versatile team.
 
-### Sustainable farming
+## Experience and Expertise
 
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+Our team has decades of experience in construction on the Cape, enabling us to offer innovative solutions to the most difficult design challenges. We have installed everything from small roof-mounted PV systems that prioritize the aesthetics of the Cape Cod home, to vast ground-mounts and carports that offset the energy use of a large business.
 
-### Direct sourcing
+## Embedded in the Cape Cod Community
 
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+All of us at SunWind are your neighbors here on Cape Cod. Hundreds of customers on Cape and Eastern Massachusetts continue to trust us with their energy needs; here’s what some of them had to say about us:
 
-### Reinvest profits
+SunWind provided us with a head-to-toe project, offering different options and scenarios based on our suggestions. The guys from SunWind are approachable, knowledgeable, and responsive, and they took care of all the paperwork. After a timely and professional installation of the system, all works well.**The system never fails; it fulfills our electricity and hot water needs. We gladly recommend SunWind.**
 
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+Hans E. (Provincetown, MA)
+
+I just want to again thank you for your fantastic service. **SunWind explained all of the costs and incentives and most importantly handled all of the paperwork and permits which would have been a complete roadblock for a novice like myself.** The installation was clean, fast and has generated power beyond our expectations. We are very happy with the entire process and prompt service when a minor issue arose. We would be delighted to recommend SunWind to anyone considering an alternative energy system.
+
+— Charles C. (Quincy, MA)
+
+My wife and I are writing to express our satisfaction with a 22-panel solar (electric) installation by SunWind LLC. We researched locally for Cape-based solar companies to do the work and installation. The 3 bids were competitive, but we chose Tim Holmes’s SunWind based on his knowledge and his willingness to work with us.
+
+**We could not be happier with how the system is working, how it was installed for optimum solar exposure while keeping respect for visual impact.** We would recommend SunWind LLC to anyone interested in solar power installation.
+
+— Todd and Robin L. (Sandwich, MA)
+
+We have now had our solar electric and solar hot water system in Orleans for about six years. With the minor exception of a pump failure in the solar hot water system the systems have been flawless. **A combination of a $0 dollar power bill and the initial rebates and SREC quarterly checks of around $700 have provided about a 10% return on investment.** The owner, Tim, is very responsive and highly knowledgeable about the programs and installations options.
+
+— Alan G. (Orleans, MA)
+
+<!--EndFragment-->
