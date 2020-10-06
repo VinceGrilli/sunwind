@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 import logo from '../img/sunwind-logo.png';
+import btclogo from '../img/btc-logo.png';
 import facebook from '../img/social/facebook.svg';
 import instagram from '../img/social/instagram.svg';
 import twitter from '../img/social/twitter.svg';
@@ -132,6 +133,21 @@ const Footer = class extends React.Component {
                     />
                   </a>
                 </div>
+                <p>
+                  © Copyright {new Date().getFullYear()} All rights reserved.
+                  Website crafted by:
+                  {` `}
+                  <a href='https://builttocode.dev'>
+                    <img
+                      style={{
+                        maxWidth: `7rem`,
+                        marginTop: '1rem',
+                      }}
+                      src={btclogo}
+                      alt='Built to Code'
+                    />
+                  </a>
+                </p>
               </div>
             </div>
           </div>
