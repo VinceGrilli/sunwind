@@ -143,7 +143,6 @@ export const IndexPageTemplate = ({
         <div
           className='column is-two-fifths'
           style={{
-            marginRight: '3rem',
             fontSize: '1.5rem',
             color: '#d5ad26',
             textAlign: 'right',

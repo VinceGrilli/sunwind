@@ -5,8 +5,6 @@ import logo from '../img/sunwind-logo.png';
 import btclogo from '../img/btc-logo.png';
 import facebook from '../img/social/facebook.svg';
 import instagram from '../img/social/instagram.svg';
-import twitter from '../img/social/twitter.svg';
-import vimeo from '../img/social/vimeo.svg';
 
 const Footer = class extends React.Component {
   render() {
@@ -93,7 +91,7 @@ const Footer = class extends React.Component {
                 </section>
               </div>
               <div className='column is-4'>
-                <ul className='menu-list'>
+                <ul className='menu-list' style={{ marginRight: '2rem' }}>
                   <li>
                     <Link
                       className='navbar-item wt'
@@ -141,7 +139,6 @@ const Footer = class extends React.Component {
                     <img
                       style={{
                         maxWidth: `7rem`,
-                        marginTop: '1rem',
                       }}
                       src={btclogo}
                       alt='Built to Code'
