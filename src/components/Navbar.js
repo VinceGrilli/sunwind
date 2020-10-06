@@ -3,15 +3,14 @@ import { Link } from 'gatsby';
 import github from '../img/github-icon.svg';
 import logo from '../img/sunwind-logo.png';
 
-const Navbar = (props) => {
+const Navbar = () => {
   let [active, setActive] = useState(false);
   let [navBarActiveClass, SetNavBarActiveClass] = useState('');
 
   const toggleHamburger = () => {
     // toggle the active boolean in the state
-    setActive(!active).then(
-      active ? SetNavBarActiveClass('is-active') : SetNavBarActiveClass('')
-    );
+    setActive(!active);
+    active ? SetNavBarActiveClass('is-active') : SetNavBarActiveClass('');
   };
   return (
     <nav
@@ -22,13 +21,13 @@ const Navbar = (props) => {
       <div className='container'>
         <div className='navbar-brand'>
           <Link to='/' className='navbar-item' title='Logo'>
-            <img src={logo} alt='Kaldi' style={{ width: '88px' }} />
+            <img src={logo} alt='Sunwind' style={{ width: '88px' }} />
           </Link>
           {/* Hamburger menu */}
           <div
             className={`navbar-burger burger ${navBarActiveClass}`}
             data-target='navMenu'
-            onClick={toggleHamburger()}
+            onClick={(e) => toggleHamburger(e.target.value)}
           >
             <span />
             <span />
