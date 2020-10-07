@@ -132,6 +132,19 @@ collections:
             }
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
+      - file: 'src/pages/energy-storage/index.md'
+        label: 'Energy-Storage'
+        name: 'energy-storage'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'energy-storage-page',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Image', name: 'image', widget: 'image' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
       - file: 'src/pages/wind/index.md'
         label: 'Wind'
         name: 'wind'
