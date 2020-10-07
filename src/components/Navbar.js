@@ -63,6 +63,9 @@ const Navbar = () => {
             <Link className='navbar-item wt' to='/wind'>
               Wind
             </Link>
+            <Link className='navbar-item wt' to='/energy-storage'>
+              Energy Storage
+            </Link>
             <Link className='navbar-item wt' to='/gallery'>
               Gallery
             </Link>

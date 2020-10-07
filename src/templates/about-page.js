@@ -18,6 +18,8 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                 style={{
                   backgroundImage:
                     'linear-gradient(to right, #2073af , #3480b6)',
+                  height: '4rem',
+                  color: 'white',
                 }}
               >
                 {title}

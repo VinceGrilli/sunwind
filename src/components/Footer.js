@@ -95,6 +95,15 @@ const Footer = class extends React.Component {
                   <li>
                     <Link
                       className='navbar-item wt'
+                      to='/energy-storage'
+                      style={{ textAlign: 'center' }}
+                    >
+                      Energy Storage
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      className='navbar-item wt'
                       to='/contact'
                       style={{ textAlign: 'center' }}
                     >
@@ -105,13 +114,13 @@ const Footer = class extends React.Component {
                     <a
                       className='navbar-item wt'
                       href='tel:508-258-7277"'
-                      style={{ textAlign: 'center' }}
+                      style={{ textAlign: 'center', paddingBottom: '0' }}
                     >
                       508-258-7277
                     </a>
                   </li>
                 </ul>
-                <div className='social'>
+                <div className='social' style={{ paddingTop: '0' }}>
                   <a title='facebook' href='https://facebook.com'>
                     <img
                       src={facebook}
