@@ -7,6 +7,7 @@ import Content, { HTMLContent } from '../components/Content';
 export const EnergyStoragePageTemplate = ({
   title,
   content,
+  image,
   contentComponent,
 }) => {
   const PageContent = contentComponent || Content;
@@ -26,6 +27,19 @@ export const EnergyStoragePageTemplate = ({
               >
                 {title}
               </h2>
+              <div
+                className='full-width-image-container'
+                style={{
+                  backgroundImage: `url(${
+                    !!image.childImageSharp
+                      ? image.childImageSharp.fluid.src
+                      : image
+                  })`,
+                  backgroundPosition: `center`,
+                  backgroundSize: `auto`,
+                  backgroundRepeat: `no-repeat`,
+                }}
+              ></div>
               <PageContent className='content' content={content} />
             </div>
             <div className='columns'>
@@ -59,6 +73,7 @@ export const EnergyStoragePageTemplate = ({
 
 EnergyStoragePageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
+  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 };
@@ -70,6 +85,7 @@ const EnergyStoragePage = ({ data }) => {
     <Layout>
       <EnergyStoragePageTemplate
         contentComponent={HTMLContent}
+        image={post.frontmatter.image}
         title={post.frontmatter.title}
         content={post.html}
       />
@@ -88,6 +104,13 @@ export const energyStoragePageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
+        image {
+          childImageSharp {
+            fluid(maxWidth: 2048, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         title
       }
     }
