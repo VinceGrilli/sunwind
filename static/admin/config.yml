@@ -158,6 +158,19 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Image', name: 'image', widget: 'image' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
+      - file: 'src/pages/payment-options/index.md'
+        label: 'Payment-Options'
+        name: 'payment-options'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'payment-options-page',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Image', name: 'image', widget: 'image' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
       - file: 'src/pages/residential-commercial/index.md'
         label: 'Residential-Commercial'
         name: 'residential-commercial'

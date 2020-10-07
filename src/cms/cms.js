@@ -7,6 +7,7 @@ import IndexPagePreview from './preview-templates/IndexPagePreview';
 import WindPagePreview from './preview-templates/WindPagePreview';
 import EnergyStoragePagePreview from './preview-templates/EnergyStoragePagePreview';
 import IncentiveProgramsPagePreview from './preview-templates/IncentiveProgramsPagePreview';
+import PaymentOptionsPagePreview from './preview-templates/PaymentOptionsPagePreview';
 import ResidentialCommercialPagePreview from './preview-templates/ResidentialCommercialPagePreview';
 
 CMS.registerPreviewTemplate('index', IndexPagePreview);
@@ -16,6 +17,7 @@ CMS.registerPreviewTemplate('blog', BlogPostPreview);
 CMS.registerPreviewTemplate('wind', WindPagePreview);
 CMS.registerPreviewTemplate('energyStorage', EnergyStoragePagePreview);
 CMS.registerPreviewTemplate('incentivePrograms', IncentiveProgramsPagePreview);
+CMS.registerPreviewTemplate('paymentOptions', PaymentOptionsPagePreview);
 CMS.registerPreviewTemplate(
   'residentialCommercial',
   ResidentialCommercialPagePreview
