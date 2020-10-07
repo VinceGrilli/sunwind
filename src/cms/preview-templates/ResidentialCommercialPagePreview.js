@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { ResidentialCommercialPageTemplate } from '../../templates/energy-storage-page';
+import { ResidentialCommercialPageTemplate } from '../../templates/residential-commercial-page';
 
 const ResidentialCommercialPagePreview = ({ entry, widgetFor }) => (
   <ResidentialCommercialPageTemplate

@@ -37,7 +37,6 @@ export const ResidentialCommercialPageTemplate = ({
                       ? image.childImageSharp.fluid.src
                       : image
                   })`,
-                  backgroundPosition: `center`,
                   backgroundSize: `auto`,
                   backgroundRepeat: `no-repeat`,
                 }}

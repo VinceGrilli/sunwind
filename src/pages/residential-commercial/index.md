@@ -1,7 +1,10 @@
 ---
+templateKey: residential-commercial-page
+path: residential-commercial
 title: Residential & Commercial Systems
 image: /img/ground-panels.jpg
 ---
+
 <!--StartFragment-->
 
 SunWind, LLC, has worked with hundreds of Cape home and business owners to offset their utility costs by improving their home or business’s energy efficiency. SunWind has partnered with some of the most trusted brands in the solar industry such as LG, Enphase, and Sonnen to offer the best technology available today.
@@ -18,7 +21,7 @@ There are many reasons why investing in a solar PV system makes sense for a grow
 
 For the majority of Cape homeowners, these incentives include a tax credit of $1,000 from the commonwealth of Massachusetts and a federal tax credit worth 26% of the cost of the system, decreasing to 22% starting January 1, 2021. If you live on Nantucket, there is an additional rebate of $4,000 that further lowers the up-front cost of going solar.
 
-\[caption id="attachment_1710" align="alignnone" width="525"]![](http://www.sunwindllc.com/wp-content/uploads/2017/07/EnergyConsumedArtboard-1@3x-1024x614.png) Comparison of a sample electric bill before and after net metering. Data is from an actual electric bill from one of our customers and projected production using NREL PVWatts.\[/caption]
+![](http://www.sunwindllc.com/wp-content/uploads/2017/07/EnergyConsumedArtboard-1@3x-1024x614.png) Comparison of a sample electric bill before and after net metering. Data is from an actual electric bill from one of our customers and projected production using NREL PVWatts.
 
 ### NET METERING
 
@@ -34,9 +37,9 @@ Massachusetts also requires that utility companies in the commonwealth invest a 
 
 We consult with each of our customers to discuss the best energy solution and financing scenario based on their budget, usage needs, and design preferences. We handle everything from the paperwork, design, walkthrough, installation, to getting the most out of your tax rebates.
 
-* Following a site visit in which we measure and assess the condition of the roof (for roof-mounted systems), analyze the composition and slope of the terrain (for ground-mounts), and complete a shading analysis, we will send you a detailed proposal.
-* Upon approval from the customer, we begin the permitting process and applying for approval from all authority-having jurisdictions (such as homeowners’ associations, historical societies, etc.) as needed.
-* Once the project is permitted, we schedule an install date with the customer and an expected completion date.
-* After completion of the install, we schedule an inspection and get you interconnected to the utility grid and handle all the paperwork to make sure you get the most of all available incentives.
+- Following a site visit in which we measure and assess the condition of the roof (for roof-mounted systems), analyze the composition and slope of the terrain (for ground-mounts), and complete a shading analysis, we will send you a detailed proposal.
+- Upon approval from the customer, we begin the permitting process and applying for approval from all authority-having jurisdictions (such as homeowners’ associations, historical societies, etc.) as needed.
+- Once the project is permitted, we schedule an install date with the customer and an expected completion date.
+- After completion of the install, we schedule an inspection and get you interconnected to the utility grid and handle all the paperwork to make sure you get the most of all available incentives.
 
 <!--EndFragment-->
