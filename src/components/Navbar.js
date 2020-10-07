@@ -49,7 +49,7 @@ const Navbar = () => {
                 <Link className='navbar-item wt' to='/residential-commercial'>
                   Residential & Commercial
                 </Link>
-                <Link className='navbar-item wt' to='/incentives'>
+                <Link className='navbar-item wt' to='/incentive-programs'>
                   Incentive Programs
                 </Link>
                 <Link className='navbar-item wt' to='/payment-options'>

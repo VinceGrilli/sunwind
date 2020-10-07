@@ -145,6 +145,19 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Image', name: 'image', widget: 'image' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
+      - file: 'src/pages/incentive-programs/index.md'
+        label: 'Incentive-Programs'
+        name: 'incentive-programs'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'incentive-programs-page',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Image', name: 'image', widget: 'image' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
       - file: 'src/pages/residential-commercial/index.md'
         label: 'Residential-Commercial'
         name: 'residential-commercial'
