@@ -8,6 +8,7 @@ import WindPagePreview from './preview-templates/WindPagePreview';
 import EnergyStoragePagePreview from './preview-templates/EnergyStoragePagePreview';
 import IncentiveProgramsPagePreview from './preview-templates/IncentiveProgramsPagePreview';
 import PaymentOptionsPagePreview from './preview-templates/PaymentOptionsPagePreview';
+import GroundPagePreview from './preview-templates/GroundPagePreview';
 import ResidentialCommercialPagePreview from './preview-templates/ResidentialCommercialPagePreview';
 
 CMS.registerPreviewTemplate('index', IndexPagePreview);
@@ -15,9 +16,10 @@ CMS.registerPreviewTemplate('about', AboutPagePreview);
 CMS.registerPreviewTemplate('products', ProductPagePreview);
 CMS.registerPreviewTemplate('blog', BlogPostPreview);
 CMS.registerPreviewTemplate('wind', WindPagePreview);
+CMS.registerPreviewTemplate('paymentOptions', PaymentOptionsPagePreview);
 CMS.registerPreviewTemplate('energyStorage', EnergyStoragePagePreview);
 CMS.registerPreviewTemplate('incentivePrograms', IncentiveProgramsPagePreview);
-CMS.registerPreviewTemplate('paymentOptions', PaymentOptionsPagePreview);
+CMS.registerPreviewTemplate('ground', GroundPagePreview);
 CMS.registerPreviewTemplate(
   'residentialCommercial',
   ResidentialCommercialPagePreview

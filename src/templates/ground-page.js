@@ -4,7 +4,7 @@ import { Link, graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
 
-export const ResidentialCommercialPageTemplate = ({
+export const GroundPageTemplate = ({
   title,
   content,
   image,
@@ -39,7 +39,6 @@ export const ResidentialCommercialPageTemplate = ({
                   })`,
                   backgroundSize: `auto`,
                   backgroundRepeat: `no-repeat`,
-                  backgroundPosition: 'top',
                 }}
               ></div>
               <PageContent className='content' content={content} />
@@ -73,19 +72,19 @@ export const ResidentialCommercialPageTemplate = ({
   );
 };
 
-ResidentialCommercialPageTemplate.propTypes = {
+GroundPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 };
 
-const ResidentialCommercialPage = ({ data }) => {
+const GroundPage = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
     <Layout>
-      <ResidentialCommercialPageTemplate
+      <GroundPageTemplate
         contentComponent={HTMLContent}
         image={post.frontmatter.image}
         title={post.frontmatter.title}
@@ -95,14 +94,14 @@ const ResidentialCommercialPage = ({ data }) => {
   );
 };
 
-ResidentialCommercialPage.propTypes = {
+GroundPage.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
-export default ResidentialCommercialPage;
+export default GroundPage;
 
-export const residentialCommercialPageQuery = graphql`
-  query ResidentialCommercialPage($id: String!) {
+export const groundPageQuery = graphql`
+  query GroundPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
