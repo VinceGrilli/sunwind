@@ -28,6 +28,7 @@ const Navbar = () => {
             <img src={logo} alt='Sunwind' style={{ width: '88px' }} />
           </Link>
           {/* Hamburger menu */}
+          {/* eslint-disable-next-line */}
           <div
             className={`navbar-burger burger ${navBarActiveClass}`}
             data-target='navMenu'
@@ -41,7 +42,7 @@ const Navbar = () => {
         <div id='navMenu' className={`navbar-menu ${navBarActiveClass}`}>
           <div className='navbar-start has-text-centered'>
             <div className={`navbar-item has-dropdown is-hoverable `}>
-              <Link className='navbar-link wt' to='/solar'>
+              <Link className='navbar-link wt' to='/residential-commercial'>
                 Solar
               </Link>
 
@@ -84,6 +85,7 @@ const Navbar = () => {
               <a
                 title='facebook'
                 target='_blank'
+                rel='noreferrer'
                 href='https://www.facebook.com/sunwindllc/'
               >
                 <img
@@ -95,6 +97,7 @@ const Navbar = () => {
               <a
                 title='instagram'
                 target='_blank'
+                rel='noreferrer'
                 href='https://www.instagram.com/sunwindllc/'
               >
                 <img

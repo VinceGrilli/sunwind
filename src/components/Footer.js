@@ -60,16 +60,16 @@ const Footer = class extends React.Component {
                 <section>
                   <ul className='menu-list'>
                     <li>
-                      <Link className='navbar-item wt' to='/solar'>
-                        Solar
-                      </Link>
-                    </li>
-                    <li>
                       <Link
                         className='navbar-item wt'
                         to='/residential-commercial'
                       >
-                        Residential & Commercial
+                        Residential & Commercial Solar
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className='navbar-item wt' to='/energy-storage'>
+                        Energy Storage
                       </Link>
                     </li>
                     <li>
@@ -95,15 +95,6 @@ const Footer = class extends React.Component {
                   <li>
                     <Link
                       className='navbar-item wt'
-                      to='/energy-storage'
-                      style={{ textAlign: 'center' }}
-                    >
-                      Energy Storage
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      className='navbar-item wt'
                       to='/contact'
                       style={{ textAlign: 'center' }}
                     >
@@ -117,6 +108,15 @@ const Footer = class extends React.Component {
                       style={{ textAlign: 'center', paddingBottom: '0' }}
                     >
                       508-258-7277
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className='navbar-item wt'
+                      href='mailto:info@sunwindllc.com'
+                      style={{ textAlign: 'center', paddingBottom: '0' }}
+                    >
+                      Info@SunwindLLC.com
                     </a>
                   </li>
                 </ul>

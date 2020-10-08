@@ -1,7 +1,7 @@
 ---
 templateKey: residential-commercial-page
 path: residential-commercial
-title: Residential & Commercial Systems
+title: Residential & Commercial Solar Systems
 image: /img/beach-house.jpg
 ---
 
