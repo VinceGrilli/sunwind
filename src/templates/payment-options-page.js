@@ -23,7 +23,8 @@ export const PaymentOptionsPageTemplate = ({
                 style={{
                   backgroundImage:
                     'linear-gradient(to right, #2073af , #3480b6)',
-                  height: '4rem',
+                  minHeight: '4rem',
+                  paddingBottom: '1rem',
                   color: 'white',
                 }}
               >

@@ -39,7 +39,13 @@ const Navbar = () => {
             <span />
           </div>
         </div>
-        <div id='navMenu' className={`navbar-menu ${navBarActiveClass}`}>
+        <div
+          id='navMenu'
+          className={`navbar-menu ${navBarActiveClass}`}
+          style={{
+            backgroundImage: 'linear-gradient(to right, #2073af , #3480b6)',
+          }}
+        >
           <div className='navbar-start has-text-centered'>
             <div className={`navbar-item has-dropdown is-hoverable `}>
               <Link className='navbar-link wt' to='/residential-commercial'>

@@ -2,7 +2,9 @@
 templateKey: wind-page
 path: /wind
 title: Wind Power
+image: /img/wind-turbine.jpg
 ---
+
 <!--StartFragment-->
 
 Since SunWind’s beginnings in 2009, we have endeavored to accommodate the specific energy needs of each of our clients on an individual basis. Although we believe there is value in all forms of renewable energy, we have found that for the overwhelming majority of our customers, [solar](/residential) PV provides the greatest offset of energy needs with the most consistent production and at the most affordable price for the average Cape Cod homeowner.

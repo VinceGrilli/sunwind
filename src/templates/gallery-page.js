@@ -2,12 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
 import Layout from '../components/Layout';
-import Content, { HTMLContent } from '../components/Content';
 import Gallery from '../components/Gallery';
 
-export const GalleryPageTemplate = ({ title, content, contentComponent }) => {
-  const PageContent = contentComponent || Content;
-
+export const GalleryPageTemplate = ({ title }) => {
   return (
     <section className='section section--gradient'>
       <div className='container'>
@@ -25,8 +22,8 @@ export const GalleryPageTemplate = ({ title, content, contentComponent }) => {
               >
                 {title}
               </h2>
-              <Gallery />
               {/* <PageContent className='content' content={content} /> */}
+              <Gallery />
             </div>
             <div className='columns'>
               <div className='column is-12 has-text-centered'>
@@ -59,9 +56,6 @@ export const GalleryPageTemplate = ({ title, content, contentComponent }) => {
 
 GalleryPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  content: PropTypes.string,
-  contentComponent: PropTypes.func,
 };
 
 const GalleryPage = ({ data }) => {
@@ -69,12 +63,7 @@ const GalleryPage = ({ data }) => {
 
   return (
     <Layout>
-      <GalleryPageTemplate
-        contentComponent={HTMLContent}
-        image={post.frontmatter.image}
-        title={post.frontmatter.title}
-        content={post.html}
-      />
+      <GalleryPageTemplate title={post.frontmatter.title} />
     </Layout>
   );
 };
