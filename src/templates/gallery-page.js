@@ -3,13 +3,9 @@ import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
+import Gallery from '../components/Gallery';
 
-export const GalleryPageTemplate = ({
-  title,
-  content,
-  image,
-  contentComponent,
-}) => {
+export const GalleryPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
 
   return (
@@ -29,8 +25,8 @@ export const GalleryPageTemplate = ({
               >
                 {title}
               </h2>
-
-              <PageContent className='content' content={content} />
+              <Gallery />
+              {/* <PageContent className='content' content={content} /> */}
             </div>
             <div className='columns'>
               <div className='column is-12 has-text-centered'>

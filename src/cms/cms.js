@@ -9,7 +9,7 @@ import EnergyStoragePagePreview from './preview-templates/EnergyStoragePagePrevi
 import IncentiveProgramsPagePreview from './preview-templates/IncentiveProgramsPagePreview';
 import PaymentOptionsPagePreview from './preview-templates/PaymentOptionsPagePreview';
 import GroundPagePreview from './preview-templates/GroundPagePreview';
-import GalleryPagePreview from './preview-templates/Gallery';
+import GalleryPagePreview from './preview-templates/GalleryPagePreview';
 import ResidentialCommercialPagePreview from './preview-templates/ResidentialCommercialPagePreview';
 
 CMS.registerPreviewTemplate('index', IndexPagePreview);
