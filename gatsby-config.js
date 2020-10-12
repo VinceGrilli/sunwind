@@ -1,9 +1,20 @@
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
+
+
 module.exports = {
   siteMetadata: {
     title: 'Sunwind LLC',
     description: `Cape Cod's Most Trusted Solar Installers`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: process.env.GA_TRACKING_ID,
+      },
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
