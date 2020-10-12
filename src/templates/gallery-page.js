@@ -10,7 +10,6 @@ export const GalleryPageTemplate = ({ title }) => {
       <div className='container'>
         <div className='columns'>
           <div className='column is-10 is-offset-1'>
-            <div className='section'>
               <h2
                 className='title is-size-1 has-text-weight-bold is-bold-light has-text-centered'
                 style={{
@@ -24,7 +23,7 @@ export const GalleryPageTemplate = ({ title }) => {
               </h2>
               {/* <PageContent className='content' content={content} /> */}
               <Gallery />
-            </div>
+            
             <div className='columns'>
               <div className='column is-12 has-text-centered'>
                 <Link
