@@ -113,10 +113,9 @@ const Navbar = () => {
                 />
               </a>
             </div>
-
             <a className='navbar-item wt' href='tel:508-258-7277"'>
               508-258-7277
-            </a>
+            </a>            
           </div>
         </div>
       </div>

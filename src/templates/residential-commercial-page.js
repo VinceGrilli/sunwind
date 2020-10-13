@@ -17,34 +17,32 @@ export const ResidentialCommercialPageTemplate = ({
       <div className='container'>
         <div className='columns'>
           <div className='column is-10 is-offset-1'>
-            <div className='section'>
-              <h2
-                className='title is-size-1 has-text-weight-bold is-bold-light has-text-centered'
-                style={{
-                  backgroundImage:
-                    'linear-gradient(to right, #2073af , #3480b6)',
-                  minHeight: '4rem',
-                  paddingBottom: '1rem',
-                  color: 'white',
-                }}
-              >
-                {title}
-              </h2>
-              <div
-                className='full-width-image-container'
-                style={{
-                  backgroundImage: `url(${
-                    !!image.childImageSharp
-                      ? image.childImageSharp.fluid.src
-                      : image
-                  })`,
-                  backgroundSize: `auto`,
-                  backgroundRepeat: `no-repeat`,
-                  backgroundPosition: 'top',
-                }}
-              ></div>
-              <PageContent className='content' content={content} />
-            </div>
+            <h2
+              className='title is-size-1 has-text-weight-bold is-bold-light has-text-centered'
+              style={{
+                backgroundImage:
+                  'linear-gradient(to right, #2073af , #3480b6)',
+                minHeight: '4rem',
+                paddingBottom: '1rem',
+                color: 'white',
+              }}
+            >
+              {title}
+            </h2>
+            <div
+              className='full-width-image-container'
+              style={{
+                backgroundImage: `url(${
+                  !!image.childImageSharp
+                    ? image.childImageSharp.fluid.src
+                    : image
+                })`,
+                backgroundSize: `auto`,
+                backgroundRepeat: `no-repeat`,
+                backgroundPosition: 'top',
+              }}
+            ></div>
+            <PageContent className='content' content={content} />
             <div className='columns'>
               <div className='column is-12 has-text-centered'>
                 <Link

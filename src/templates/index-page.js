@@ -132,7 +132,7 @@ export const IndexPageTemplate = ({
             energy needs while promoting the economical and environmental
             benefits.
           </p>
-          <p>
+          <p >
             SunWind, LLC. will provide turnkey installations of solar power,
             Wind power, and Solar Thermal systems. We will conduct an extensive
             site assessment of each project and provide a written report to the
@@ -148,14 +148,15 @@ export const IndexPageTemplate = ({
             textAlign: 'right',
           }}
         >
-          <p>
+          <p style={{
+            marginRight: '1rem',}}>
             “My wife and I are writing to express our satisfaction with a 22
             panel solar (electricity) installation by SunWind LLC. We researched
             locally for Cape-based solar companies to do the work and
             installation. The 3 bids were competitive, but we chose Tim Holmes’s
             SunWind based on his knowledge ...”
           </p>
-          <p style={{ color: '#f4d675' }}>- Todd and Robin L. (Sandwich, MA)</p>
+          <p style={{ color: '#f4d675', marginRight: '1rem', }}>- Todd and Robin L. (Sandwich, MA)</p>
         </div>
       </div>
     </div>

@@ -17,13 +17,14 @@ export const GroundPageTemplate = ({
       <div className='container'>
         <div className='columns'>
           <div className='column is-10 is-offset-1'>
-            <div className='section'>
-              <h2
+            
+          <h2
                 className='title is-size-1 has-text-weight-bold is-bold-light has-text-centered'
                 style={{
                   backgroundImage:
                     'linear-gradient(to right, #2073af , #3480b6)',
-                  height: '4rem',
+                  minHeight: '4rem',
+                  paddingBottom: '1rem',
                   color: 'white',
                 }}
               >
@@ -42,7 +43,7 @@ export const GroundPageTemplate = ({
                 }}
               ></div>
               <PageContent className='content' content={content} />
-            </div>
+            
             <div className='columns'>
               <div className='column is-12 has-text-centered'>
                 <Link
