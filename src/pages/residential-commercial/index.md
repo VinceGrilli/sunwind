@@ -19,7 +19,7 @@ There are many reasons why investing in a solar PV system makes sense for a grow
 
 ### CREDITS AND REBATES
 
-For the majority of Cape homeowners, these incentives include a tax credit of $1,000 from the commonwealth of Massachusetts and a federal tax credit worth 26% of the cost of the system, decreasing to 22% starting January 1, 2021. If you live on Nantucket, there is an additional rebate of $4,000 that further lowers the up-front cost of going solar.
+For the majority of Cape homeowners, these incentives include a tax credit of $1,000 from the commonwealth of Massachusetts and a federal tax credit worth 30% of the cost of the system. If you live on Nantucket, there is an additional rebate of $4,000 that further lowers the up-front cost of going solar.
 
 ### Financing
 
