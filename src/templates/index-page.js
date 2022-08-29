@@ -14,6 +14,7 @@ export const IndexPageTemplate = ({
   image,
   heading,
   subheading,
+  subheading2,
   mainpitch,
 }) => (
   <div style={{ backgroundColor: '#3480b6' }}>
@@ -76,6 +77,27 @@ export const IndexPageTemplate = ({
               }}
             >
               {subheading}
+            </Link>
+          </div>
+        </div>
+        <div className='columns is-centered'>
+          <div className='column is-12 has-text-centered'>
+            <Link
+              className='has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen has-text-centered'
+              to='/contact'
+              style={{
+                display: 'inline-block',
+                backgroundColor: '#185581',
+                color: '#f4d675',
+                lineHeight: '1',
+                padding: '0.25em',
+                width: '300px',
+                borderStyle: 'solid round',
+                borderColor: 'white',
+                borderRadius: '6px',
+              }}
+            >
+              {subheading2}
             </Link>
           </div>
         </div>
@@ -207,6 +229,7 @@ IndexPageTemplate.propTypes = {
   title: PropTypes.string,
   heading: PropTypes.string,
   subheading: PropTypes.string,
+  subheading2: PropTypes.string,
   mainpitch: PropTypes.object,
   description: PropTypes.string,
   intro: PropTypes.shape({
@@ -224,6 +247,7 @@ const IndexPage = ({ data }) => {
         title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
+        subheading2={frontmatter.subheading2}
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
@@ -255,6 +279,7 @@ export const pageQuery = graphql`
         }
         heading
         subheading
+        subheading2
         mainpitch {
           title
           description
