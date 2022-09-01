@@ -89,10 +89,9 @@ export const IndexPageTemplate = ({
                 color: 'white',
                 lineHeight: '1',
                 padding: '0.25em',
-                width: '300px',
                 borderStyle: 'solid round',
-                borderColor: 'white',
                 borderRadius: '6px',
+                marginBottom: '1rem'
               }}
             >
               {subheading2}
