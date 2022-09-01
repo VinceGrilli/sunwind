@@ -71,8 +71,6 @@ export const IndexPageTemplate = ({
                 lineHeight: '1',
                 padding: '0.25em',
                 width: '300px',
-                borderStyle: 'solid round',
-                borderColor: 'white',
                 borderRadius: '6px',
               }}
             >
@@ -80,15 +78,15 @@ export const IndexPageTemplate = ({
             </Link>
           </div>
         </div>
-        <div className='columns is-centered'>
-          <div className='column is-12 has-text-centered'>
+        <h2 className='columns is-centered'>
+          
             <Link
-              className='has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen has-text-centered'
-              to='/contact'
+              className='has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen has-text-centered'
+              to='/blog/2022-09-01-massachusetts-relaxes-net-metering-caps-for-residential-solar-1/'
               style={{
                 display: 'inline-block',
-                backgroundColor: '#185581',
-                color: '#f4d675',
+                backgroundImage: 'linear-gradient(to right, #2073af , #3480b6)',
+                color: 'white',
                 lineHeight: '1',
                 padding: '0.25em',
                 width: '300px',
@@ -99,8 +97,8 @@ export const IndexPageTemplate = ({
             >
               {subheading2}
             </Link>
-          </div>
-        </div>
+          
+        </h2>
       </div>
     </div>
     <div className='container'>
