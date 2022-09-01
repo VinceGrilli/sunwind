@@ -19,7 +19,7 @@ export const IndexPageTemplate = ({
 }) => (
   <div style={{ backgroundColor: '#3480b6' }}>
     <div
-      className='full-width-image margin-top-0'
+      className='full-width-image margin-top-0 margin-bottom-1'
       style={{
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
