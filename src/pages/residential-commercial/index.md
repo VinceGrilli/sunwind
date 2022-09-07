@@ -4,12 +4,11 @@ path: residential-commercial
 title: Residential & Commercial Solar Systems
 image: /img/beach-house.jpg
 ---
-
 <!--StartFragment-->
 
-SunWind, LLC, has worked with hundreds of Cape home and business owners to offset their utility costs by improving their home or business’s energy efficiency. SunWind has partnered with some of the most trusted brands in the solar industry such as LG, Enphase, and Sonnen to offer the best technology available today.
+SunWind, LLC, has worked with hundreds of Cape home and business owners to offset their utility costs by improving their home or business’s energy efficiency. SunWind has partnered with some of the most trusted brands in the solar industry such as Enphase, REC, Solaria, Generac, and Meyer Burger to offer the best technology available today.
 
-![](img/lg-logo.png)![](img/enphase-logo.png)![](img/sonnen-logo.png)
+![](img/lg-logo.png)![](img/enphase-logo.png)![](/img/Enphase-logo.png)
 
 ## The Incentives
 
@@ -19,11 +18,13 @@ There are many reasons why investing in a solar PV system makes sense for a grow
 
 ### CREDITS AND REBATES
 
-For the majority of Cape homeowners, these incentives include a tax credit of $1,000 from the commonwealth of Massachusetts and a federal tax credit worth 26% of the cost of the system, decreasing to 22% starting January 1, 2021. If you live on Nantucket, there is an additional rebate of $4,000 that further lowers the up-front cost of going solar.
+The Federal Tax Credit was recently increased from 26% to 30%, the state of Massachusetts offers a $1,000 income tax credit and the town of Nantucket increased the rebate for a solar system installed on your primary residence up to $6,000.
+
+When combined these incentives make it a great time to go solar!
 
 ### Financing
 
-Sunwind offers several different financing options, and we strive to make the processes as easy as possible. We even offer 3rd party financing with interest rates as low as **0.99%**! [Contact us](/contact) for the simple one-page application for a solar/home improvement loan. Or Check out our [payment options page](/payment-options) for more info.
+Sunwind offers several different financing options, and we strive to make the processes as easy as possible. We even offer 3rd party financing with competitive interest rates. [Contact us](/contact) for the simple one-page application for a solar/home improvement loan. Or Check out our [payment options page](/payment-options) for more info.
 
 ### NET METERING
 
@@ -43,9 +44,9 @@ Massachusetts also requires that utility companies in the commonwealth invest a 
 
 We consult with each of our customers to discuss the best energy solution and financing scenario based on their budget, usage needs, and design preferences. We handle everything from the paperwork, design, walkthrough, installation, to getting the most out of your tax rebates.
 
-- Following a site visit in which we measure and assess the condition of the roof (for roof-mounted systems), analyze the composition and slope of the terrain (for ground-mounts), and complete a shading analysis, we will send you a detailed proposal.
-- Upon approval from the customer, we begin the permitting process and applying for approval from all authority-having jurisdictions (such as homeowners’ associations, historical societies, etc.) as needed.
-- Once the project is permitted, we schedule an install date with the customer and an expected completion date.
-- After completion of the install, we schedule an inspection and get you interconnected to the utility grid and handle all the paperwork to make sure you get the most of all available incentives.
+* Following a site visit in which we measure and assess the condition of the roof (for roof-mounted systems), analyze the composition and slope of the terrain (for ground-mounts), and complete a shading analysis, we will send you a detailed proposal.
+* Upon approval from the customer, we begin the permitting process and applying for approval from all authority-having jurisdictions (such as homeowners’ associations, historical societies, etc.) as needed.
+* Once the project is permitted, we schedule an install date with the customer and an expected completion date.
+* After completion of the install, we schedule an inspection and get you interconnected to the utility grid and handle all the paperwork to make sure you get the most of all available incentives.
 
 <!--EndFragment-->
