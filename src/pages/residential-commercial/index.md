@@ -9,7 +9,7 @@ image: /img/beach-house.jpg
 
 SunWind, LLC, has worked with hundreds of Cape home and business owners to offset their utility costs by improving their home or business’s energy efficiency. SunWind has partnered with some of the most trusted brands in the solar industry such as Enphase, REC, Solaria, Generac, and Meyer Burger to offer the best technology available today.
 
-![](img/rec-logo.png)![](img/enphase-logo.png)![](img/meyer-logo.png)![](/img/solaria-logo.png)
+![](img/enphase-logo.png)![](img/rec-logo.png)![](img/meyer-logo.png)![](/img/solaria-logo.png)
 
 ## The Incentives
 
