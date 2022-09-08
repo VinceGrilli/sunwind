@@ -4,7 +4,6 @@ path: /payment-options
 title: Payment Options
 image: /img/paymentoptions.png
 ---
-
 <!--StartFragment-->
 
 ## Direct Ownership
@@ -13,9 +12,19 @@ We at SunWind are big proponents of direct ownership, and as such, we discourage
 
 ## Affordable Ownership
 
-If you’re worried that solar may be beyond your budget, have no worries! The MassCEC and SunWind are there to help you out with a solar loan program that typically covers the cost of any residential and small-to-mid-sized commercial system. We are well-versed in guiding clients through the loan process through MassCEC and third parties as well, so if you have any questions about it, feel free to contact us!
+SunWind understands that installing a solar system is a big investment and we have a few loan options to help customers with financing if needed.
 
-SunWind, LLC, is a pre-qualified Mass Solar Loan installer. This program is designed to help make solar affordable for all Massachusetts residents regardless of income level.
+If you are located on or near Cape Cod:
+
+Cape Cod Five Bank
+
+First Citizens
+
+Bank 5
+
+Other options are: Lightstream or EZ Solar Loan
+
+\[Contact us](/contact) for details regarding financing options
 
 ## Loan vs lease
 
