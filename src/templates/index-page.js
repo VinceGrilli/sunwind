@@ -83,6 +83,7 @@ export const IndexPageTemplate = ({
             className='has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen has-text-centered'
             href='https://www.seia.org/news/massachusetts-relaxes-net-metering-caps-residential-solar-major-climate-bill'
             target="_blank"
+            rel="noreferrer"
             style={{
               display: 'inline-block',
               backgroundImage: 'linear-gradient(to right, #2073af , #3480b6)',
@@ -176,16 +177,6 @@ export const IndexPageTemplate = ({
           </p>
           <p style={{ color: '#f4d675', marginRight: '1rem', }}>- Todd and Robin L. (Sandwich, MA)</p>
         </div>
-      </div>
-    </div>
-    <div className='columns'>
-      <div
-        className='column is-12 has-text-centered'
-        style={{ padding: '2rem ' }}
-      >
-        <Link className='btn' to='/blog'>
-          Read more
-        </Link>
       </div>
     </div>
     <div className='columns'>

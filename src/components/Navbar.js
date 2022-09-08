@@ -79,9 +79,6 @@ const Navbar = () => {
             <Link className='navbar-item wt' to='/about'>
               About
             </Link>
-            <Link className='navbar-item wt' to='/blog'>
-              Blog
-            </Link>
             <Link className='navbar-item wt' to='/contact'>
               Contact
             </Link>
