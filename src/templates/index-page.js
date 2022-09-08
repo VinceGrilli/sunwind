@@ -79,24 +79,23 @@ export const IndexPageTemplate = ({
           </div>
         </div>
         <h2 className='columns is-centered'>
-          
-            <Link
-              className='has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen has-text-centered'
-              to='/blog/2022-09-01-massachusetts-relaxes-net-metering-caps-for-residential-solar-1/'
-              style={{
-                display: 'inline-block',
-                backgroundImage: 'linear-gradient(to right, #2073af , #3480b6)',
-                color: 'white',
-                lineHeight: '1',
-                padding: '0.25em',
-                borderStyle: 'solid round',
-                borderRadius: '6px',
-                marginBottom: '1rem'
-              }}
-            >
-              {subheading2}
-            </Link>
-          
+          <a
+            className='has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen has-text-centered'
+            href='https://www.seia.org/news/massachusetts-relaxes-net-metering-caps-residential-solar-major-climate-bill'
+            target="_blank"
+            style={{
+              display: 'inline-block',
+              backgroundImage: 'linear-gradient(to right, #2073af , #3480b6)',
+              color: 'white',
+              lineHeight: '1',
+              padding: '0.25em',
+              borderStyle: 'solid round',
+              borderRadius: '6px',
+              marginBottom: '1rem'
+            }}
+          >
+            {subheading2}
+          </a>          
         </h2>
       </div>
     </div>
