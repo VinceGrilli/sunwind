@@ -100,7 +100,7 @@ export const IndexPageTemplate = ({
         </h2>
       </div>
     </div>
-    <div className='container'>
+    <div className='container '>
       <div
         className='content columns'
         style={{
