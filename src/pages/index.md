@@ -2,11 +2,13 @@
 templateKey: index-page
 title: Sunwind LLC
 image: /img/banner.png
-heading: Federal Tax Credit Just Increased to 30%!
-subheading: Contact us today to lock in your rebate!
-subheading2: Massachusetts just removed the 10kW cap on solar systems. Click to learn more!
+heading: The Federal Tax Credit has returned to 30%
+subheading: Contact us today for a free consultation.
+subheading2: Massachusetts electric rates have skyrocketed, eliminate your
+  electric bill with a solar system!
 mainpitch:
-  title: " Custom Solar Solutions Installed by trusted professionals"
+  title: " Solar designed and installed to meet your needs by local trusted
+    professionals"
   description: |
     
     Serving Cape Cod, Nantucket,
